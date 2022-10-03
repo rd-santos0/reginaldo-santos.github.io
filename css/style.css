@@ -216,11 +216,11 @@ body {
 
 @media screen and (max-width:780px) {
     .left-section {
-        grid-column: span 2;
+        grid-column: span 3;
     }
     
     .right-section {
-        grid-column: span 5;
+        grid-column: span 4;
     }
     
 }
