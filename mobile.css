@@ -1,0 +1,78 @@
+    .experience-contents,
+    .education-contents,
+    .awards-contents {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .left-section {
+        grid-column: span 2;
+    }
+    
+    .right-section {
+        grid-column: span 5;
+        height: 100%;
+        background-color: #4B6982;
+        border-radius: 0px 0px 0px 0px;
+    }
+    
+
+    .resume-contents {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .profession {
+        font-size: 18px;
+    }
+
+    .left-title {
+        font-size: 18px;
+    }
+
+    .right-title {
+        font-size: 18px;
+    }
+
+    .contact-info ul li,
+    .references ul li {
+        font-size: 12px;
+    }
+
+    .contact-info ul li i,
+    .references ul li i {
+        /* padding-right: 1rem; */
+        font-size: 12px;
+    }
+
+    .skills ul li p {
+        font-size: 12px;
+    }
+
+    .about-me-contents {
+        font-size: 16px;
+        line-height: 1.5rem;
+    }
+
+    .exp-company-name,
+    .education-school-name,
+    .awards-company-name {
+        font-size: 18px;
+    }
+
+    .exp-time-period,
+    .educationp-time-period,
+    .awards-time-period {
+        font-size: 16px;
+    }
+
+    .exp-position,
+    .education-subject,
+    .awards-name {
+        font-size: 18px;
+    }
+}
